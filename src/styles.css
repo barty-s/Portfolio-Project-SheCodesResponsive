@@ -27,7 +27,7 @@ i {
 }
 
 .hero {
-  margin: 50px;
+  margin: 80px 50px auto;
   background-color: white;
   border-radius: 8px;
   padding: 20px;
@@ -70,6 +70,6 @@ i {
     max-width: 30%;
   }
   .hero {
-    margin: 5px;
+    margin: 75px 5px auto;
   }
 }

@@ -1,6 +1,52 @@
-h1 {
-  font-family: "Roboto", sans-serif;
+:root {
+  --heading-font-family: "Roboto", sans-serif;
+  --default-font-family: "Source Sans Pro", sans-serif;
+  --button-color: #ed6d6d;
+  --font-color: #212529;
 }
-p {
-  font-family: "Source Sans Pro", sans-serif;
+body {
+  background: #f9acac;
+}
+h1,
+h2 {
+  font-family: var(--heading-font-family);
+  color: var(--font-color);
+}
+#personal-pic {
+  max-width: 60%;
+}
+i {
+  font-size: 200px;
+}
+
+.hero {
+  margin: 50px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+.btn {
+  background-color: var(--button-color);
+  border-color: var(--button-color);
+}
+.btn:hover {
+  background-color: white;
+  color: var(--button-color);
+  border-color: var(--button-color);
+}
+#bio-link {
+  color: white;
+}
+.bio-links {
+  color: white;
+  text-decoration: none;
+}
+.bio-links:hover {
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 18px;
+  }
 }

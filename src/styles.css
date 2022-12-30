@@ -1,19 +1,26 @@
 :root {
   --heading-font-family: "Roboto", sans-serif;
   --default-font-family: "Source Sans Pro", sans-serif;
-  --button-color: #ed6d6d;
+  --button-color: #f43f3f;
   --font-color: #212529;
+  --primary-color: #324763;
 }
 body {
-  background: #f9acac;
+  background: var(--primary-color);
 }
 h1,
 h2 {
   font-family: var(--heading-font-family);
   color: var(--font-color);
 }
-#personal-pic {
+#personal-pic,
+#weather-app,
+#world-clock-app {
   max-width: 60%;
+}
+#weather-app,
+#world-clock-app {
+  margin: 0 auto;
 }
 i {
   font-size: 200px;
@@ -31,8 +38,8 @@ i {
 }
 .btn:hover {
   background-color: white;
-  color: var(--button-color);
-  border-color: var(--button-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 #bio-link {
   color: white;
@@ -42,14 +49,27 @@ i {
   text-decoration: none;
 }
 .bio-links:hover {
-  font-weight: bold;
+  color: var(--button-color);
 }
-
-@media (max-width: 500px) {
+.border-3 {
+  border-color: var(--button-color);
+}
+@media (max-width: 900px) {
   h2 {
     font-size: 18px;
   }
+  h4,
+  .description-paragraph,
+  .button-small-screen {
+    text-align: center;
+  }
   i {
     font-size: 100px;
+  }
+  #personl-pic {
+    max-width: 30%;
+  }
+  .hero {
+    margin: 5px;
   }
 }

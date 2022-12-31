@@ -16,7 +16,7 @@ h2 {
 .description-paragraph {
   font-family: var(--default-font-family);
 }
-#personal-pic,
+.personal-pic,
 #weather-app,
 #world-clock-app {
   max-width: 60%;
@@ -54,10 +54,21 @@ i {
 .bio-links:hover {
   color: var(--button-color);
 }
-.border-3,
-img {
+.border-3 {
   border-color: var(--button-color);
 }
+
+.grow img {
+  transition: 500ms ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms ease;
+}
+
 @media (max-width: 900px) {
   h2 {
     font-size: 18px;
@@ -70,10 +81,11 @@ img {
   i {
     font-size: 100px;
   }
-  #personl-pic {
-    max-width: 30%;
-  }
+
   .hero {
     margin: 75px 5px auto;
+  }
+  img {
+    text-align: center;
   }
 }

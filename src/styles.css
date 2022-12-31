@@ -18,7 +18,9 @@ h2 {
 }
 .personal-pic,
 #weather-app,
-#world-clock-app {
+#world-clock-app,
+#windsurfing-lp,
+#running-lp {
   max-width: 60%;
 }
 #weather-app,

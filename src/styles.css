@@ -99,10 +99,12 @@ h5 {
   .hero-section {
     font-size: 100px;
   }
-  .contact-section {
-    font-size: ;
+  .contact-paragraph {
+    padding: 5px;
   }
-
+  .page-links {
+    padding: 5px;
+  }
   .hero {
     margin: 75px 5px auto;
   }

@@ -27,6 +27,9 @@ h5 {
 #running-lp {
   max-width: 60%;
 }
+.false {
+  max-width: 20%;
+}
 #weather-app,
 #world-clock-app {
   margin: 0 auto;

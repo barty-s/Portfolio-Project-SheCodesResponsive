@@ -28,7 +28,13 @@ h5 {
   max-width: 60%;
 }
 .false {
-  max-width: 20%;
+  max-width: 35%;
+  transition: all 150ms ease-in-out;
+}
+.false:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 #weather-app,
 #world-clock-app {
@@ -136,5 +142,8 @@ h5 {
   }
   img {
     text-align: center;
+  }
+  .false {
+    margin-left: 130px;
   }
 }

@@ -30,6 +30,8 @@ h5 {
 .false {
   max-width: 35%;
   transition: all 150ms ease-in-out;
+  display: flex;
+  margin: 0 auto;
 }
 .false:hover {
   -webkit-transform: scale(1.1);
